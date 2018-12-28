@@ -1,0 +1,5 @@
+// default : non-parallel
+python entire_prediction_code(non-parallel).py newtrain-images-idx3-ubyte newtrain-labels-idx1-ubyte mnist_new_testall-patterns-idx3-ubyte
+
+// if using parallel
+python entire_prediction_code(parallel).py newtrain-images-idx3-ubyte newtrain-labels-idx1-ubyte mnist_new_testall-patterns-idx3-ubyte
